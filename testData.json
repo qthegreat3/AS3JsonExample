@@ -1,0 +1,13 @@
+#this creates an array of objects where each object has two properties: componentName and testValues
+#componentName is a string 
+#testValues is an array of values to test
+[
+	{
+		"componentName": "IndicatorLeftAileronPointer",
+		"testValues": [-20, 20, 0, 10, -10, 200, -200]
+	},
+	{
+		"componentName": "IndicatorRightAileronPointer",
+		"testValues": [-20, 20, 0, 10, -10, 200, -200]
+	}
+]
